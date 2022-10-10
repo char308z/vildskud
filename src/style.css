@@ -1,3 +1,83 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cond {
+  font-stretch: condensed;
+}
+
+/*-------------------------BURGERMENU----------------------------*/
+.hide {
+  display: none;
+}
+
+.burger_container {
+  /* height: 100%; */
+  padding: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  display: none;
+  visibility: hidden;
+}
+
+.bar {
+  z-index: 100;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 35px;
+}
+
+.bar span {
+  padding: 0;
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: #a00000;
+  display: inline-block;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.bar span.top {
+  top: 9px;
+}
+
+.bar span.middle {
+  top: 23px;
+}
+
+.bar span.bottom {
+  bottom: -2px;
+}
+
+input[type]:checked ~ span.top {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  width: 48px;
+  left: 4px;
+  top: 2px;
+}
+
+input[type]:checked ~ span.bottom {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  width: 48px;
+  bottom: -1px;
+}
+
+input[type]:checked ~ span.middle {
+  opacity: 0;
+}
