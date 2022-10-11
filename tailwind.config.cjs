@@ -9,9 +9,6 @@ module.exports = {
         sort: "#222222",
         hvid: "#FDFDFD",
       },
-      fontFamily: {
-        cond: ["HelveticaNeue-Condensed", "serif"],
-      },
     },
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],

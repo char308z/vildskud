@@ -41,67 +41,67 @@
   }
 
   p {
-    font-family: "arial";
+    font-family: "helvetica neue";
     font-size: 1rem;
     letter-spacing: 1%;
   }
 
   .mails_body {
-    font-family: "arial"; 
+    font-family: "helvetica neue";
     font-size: 1.6rem;
     color: #a00000;
   }
 
- footer a {
-    font-family: "arial"; 
+  footer a {
+    font-family: "helvetica neue";
     font-size: 1.1rem;
     color: #a00000;
   }
 
   @media screen and (min-width: 600px) {
     h1 {
-      font-family: "Helvetica Neue"; 
+      font-family: "Helvetica Neue";
       font-stretch: condensed;
       font-size: 7rem;
       font-weight: 900;
     }
-  
+
     h2 {
-      font-family: "Helvetica Neue"; 
+      font-family: "Helvetica Neue";
       font-stretch: condensed;
       font-size: 5.5rem;
       font-weight: 900;
-      color: #A00000;
+      color: #a00000;
       letter-spacing: 5px;
     }
-  
+
     .second_h2 {
-      color: #A00000;
+      color: #a00000;
       -webkit-text-fill-color: white;
       -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: #A00000;
+      -webkit-text-stroke-color: #a00000;
     }
-  
+
     h3 {
-      font-family: "Helvetica Neue"; 
+      font-family: "Helvetica Neue";
       font-stretch: condensed;
       font-size: 2rem;
       font-weight: 900;
     }
-  
+
     h4 {
-      font-family: "Helvetica"; 
+      font-family: "Helvetica";
       font-size: 1.7rem;
       font-weight: bold;
     }
-  
+
     p {
-      font-family: "arial"; 
+      font-family: "helvetica neue";
       font-size: 1.4rem;
     }
 
     nav a {
-      font-family: "Helvetica Neue"; 
+      font-family: "Helvetica Neue";
       font-stretch: condensed;
       font-size: 1.5rem;
       letter-spacing: 1px;
@@ -109,16 +109,19 @@
     }
 
     footer a {
-      font-family: "arial"; 
+      font-family: "helvetica neue";
       font-size: 1.1rem;
       color: #a00000;
     }
-
   }
-} 
+}
 
 .cond {
   font-stretch: condensed;
+}
+
+.ex {
+  font-stretch: expanded;
 }
 
 /*-------------------------BURGERMENU----------------------------*/
