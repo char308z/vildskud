@@ -93,7 +93,7 @@
       </nav>
     </header>
     <main></main>
-    <footer class="lg:flex">
+    <footer class="mx-8 grid gap-8 lg:flex">
       <hr />
       <div>
         <h2>Vildskud</h2>
@@ -116,13 +116,17 @@
         <a href="#">2020</a>
         <a href="#">2019</a>
       </div>
-      <div>
-        <img src="img/logo.png" alt="" />
-        <div>
+      <div class="grid gap-4">
+        <img
+          class="place-self-center"
+          src="https://usercontent.one/wp/www.vildskud.dk/wp-content/uploads/2022/06/vildskud-logo-2022-350x350-1-300x298.png?media=1657430247"
+          alt=""
+        />
+        <div class="flex justify-end">
           <a
-            class="text-secondary hover:text-primary"
+            class="text-primary hover:text-primary lg:text-secondary"
             href="https://www.facebook.com/vildskudfestival/"
-            ><svg width="32" height="32" viewBox="0 0 24 24">
+            ><svg width="40" height="40" viewBox="0 0 24 24">
               <path
                 fill="none"
                 stroke="currentcolor"
@@ -133,9 +137,9 @@
               /></svg
           ></a>
           <a
-            class="text-secondary hover:text-primary"
+            class="text-primary hover:text-primary lg:text-secondary"
             href="https://www.instagram.com/vildskudfestival/"
-            ><svg width="32" height="32" viewBox="0 0 24 24">
+            ><svg width="40" height="40" viewBox="0 0 24 24">
               <g fill="none" stroke="currentcolor" stroke-width="1.5">
                 <path
                   stroke-linecap="round"
@@ -156,9 +160,9 @@
               </g>
             </svg>
           </a>
-          <p>© 2022 Vildskudfestival</p>
         </div>
       </div>
+      <p class="font-mono text-lg">© 2022 Vildskudfestival</p>
     </footer>
 
     <script type="module" src="./main.js"></script>
