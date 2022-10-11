@@ -46,6 +46,12 @@
     letter-spacing: 1%;
   }
 
+  .mails_body {
+    font-family: "helvetica neue";
+    font-size: 1.6rem;
+    color: #a00000;
+  }
+
   footer a {
     font-family: "helvetica neue";
     font-size: 1.1rem;
