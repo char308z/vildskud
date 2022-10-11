@@ -51,6 +51,51 @@
     font-family: "arial"; 
     font-size: 0.5rem;
   } */
+
+  @media screen and (min-width: 600px) {
+    h1 {
+      font-family: "Helvetica Neue"; 
+      font-stretch: condensed;
+      font-size: 7rem;
+      font-weight: 900;
+    }
+  
+    h2 {
+      font-family: "Helvetica Neue"; 
+      font-stretch: condensed;
+      font-size: 5.5rem;
+      font-weight: 900;
+      color: #A00000;
+      letter-spacing: 5px;
+    }
+  
+    .second_h2 {
+      color: #A00000;
+      -webkit-text-fill-color: white;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: #A00000;
+    }
+  
+    h3 {
+      font-family: "Helvetica Neue"; 
+      font-stretch: condensed;
+      font-size: 2rem;
+      font-weight: 900;
+    }
+  
+    h4 {
+      font-family: "Helvetica"; 
+      font-size: 1.7rem;
+      font-weight: bold;
+    }
+  
+    p {
+      font-family: "arial"; 
+      font-size: 1rem;
+      letter-spacing: 1%;
+    }
+
+  }
 } 
 
 .cond {
