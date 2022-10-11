@@ -1,5 +1,11 @@
 import "./style.css";
 
+import Alpine from "alpinejs";
+
+window.Alpine = Alpine;
+
+Alpine.start();
+
 const burgermenu = document.querySelector("input[type=checkbox]");
 
 burgermenu.addEventListener("change", showNav);
