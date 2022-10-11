@@ -9,14 +9,15 @@
   <body class="place-items-center">
     <header
       id="nav_moblie"
-      class="sticky border-b-[0.75px] border-black md:hidden"
+      class="sticky border-b-[0.75px] border-black lg:hidden"
     >
       <nav class="flex justify-between bg-hvid font-light uppercase">
-        <img
-          src="img/valmue.svg "
-          class="mx-8 mt-4 mb-5 h-[40px]"
-          alt="Vildskud logo"
-        />
+        <a href="index.html">
+          <img
+            src="img/valmue.svg "
+            class="mx-8 mt-4 mb-5 h-[40px]"
+            alt="Vildskud logo"
+        /></a>
         <label for="check" class="bar mx-8 mt-4 mb-5">
           <input id="check" type="checkbox" />
 
@@ -33,28 +34,28 @@
             class="flex flex-col justify-evenly gap-20 border-[0.75px] border-primary pt-8 pb-8 pl-16 text-3xl font-extrabold"
           >
             <li>
-              <a href="biletter.html">
-                <p class="cond text-5xl font-thin">billetter</p>
+              <a href="biletter.html" class="cond text-5xl font-medium">
+                billetter
               </a>
             </li>
             <li>
-              <a href="venues.html">
-                <p class="font-semibold text-secondary">Venues</p>
+              <a href="venues.html" class="font-semibold text-secondary">
+                Venues
               </a>
             </li>
             <li>
               <a href="program.html" class="cond text-6xl text-primary">
-                <p class="">Program</p>
+                Program
               </a>
             </li>
             <li>
-              <a href="frivillig.html">
-                <p class="text-2xl font-thin">Bliv frivillig</p>
+              <a href="frivillig.html" class="text-2xl font-thin">
+                Bliv frivillig
               </a>
             </li>
             <li>
-              <a href="opencall.html">
-                <p class="cond font-medium text-primary">Open call</p>
+              <a href="opencall.html" class="cond font-medium text-primary">
+                Open call
               </a>
             </li>
           </ul>
@@ -63,45 +64,93 @@
     </header>
     <header
       id="navWeb"
-      class="sticky hidden border-b-[0.75px] border-black px-4 md:block"
+      class="sticky hidden border-b-[0.75px] border-black px-4 lg:block"
     >
-      <nav class="flex justify-between font-semibold uppercase">
-        <img
-          src="img/valmue.svg"
-          class="mx-8 mt-4 mb-5 h-[50px]"
-          alt="Vildskud logo"
-        />
+      <nav
+        class="mx-8 flex content-center justify-between font-semibold uppercase lg:py-4"
+      >
+        <a href="index.html">
+          <img src="img/valmue.svg " class="h-[40px]" alt="Vildskud logo"
+        /></a>
 
-        <ul class="flex gap-8">
+        <ul class="flex items-center justify-between gap-8">
           <li>
-            <a href="biletter.html">
-              <p class="mt-8 mb-8">billetter</p>
-            </a>
+            <a href="biletter.html"> billetter </a>
           </li>
           <li>
-            <a href="venues.html">
-              <p class="mt-8 mb-8">Venues</p>
-            </a>
+            <a href="venues.html"> Venues </a>
           </li>
           <li>
-            <a href="program.html">
-              <p class="mt-8 mb-8">Program</p>
-            </a>
+            <a href="program.html"> Program </a>
           </li>
           <li>
-            <a href="frivillig.html">
-              <p class="mt-8 mb-8">Bliv frivillig</p>
-            </a>
+            <a href="frivillig.html"> Bliv frivillig </a>
           </li>
           <li>
-            <a href="opencall.html">
-              <p class="mt-8 mb-8">Open call</p>
-            </a>
+            <a href="opencall.html"> Open call </a>
           </li>
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <h2 class="font-h2 m-10">Venues</h2>
+      <h3 class="">Find os</h3>
+      <section class="m-10 lg:flex lg:justify-center">
+        <div class="mapouter bg-blend-color">
+          <div class="gmap_canvas">
+            <iframe
+              width="353"
+              height="300"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=%C3%98resundsvej%204,%202300%20K%C3%B8benhavn&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe
+            ><a href="https://123movies-to.org"></a><br /><style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 300px;
+                width: 353px;
+              }</style
+            ><a href="https://www.embedgooglemap.net"></a
+            ><style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 500px;
+                width: 553px;
+              }
+            </style>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="m-10 justify-center lg:flex">
+          <img src="img/teater_huset.svg" alt="teater_huset" />
+          <p class="p-16">
+            Teaterhuset Rådhusstræde 13 v. HUSET-KBH 1466 København
+          </p>
+        </div>
+
+        <div class="m-10 justify-center lg:flex lg:flex-row-reverse">
+          <img src="img/teater_huset.svg" alt="teater_huset" />
+          <p class="p-16">Rådhusstræde 13, 1466 KBH K</p>
+        </div>
+
+        <div class="m-10 justify-center lg:flex">
+          <img src="img/teater_huset.svg" alt="teater_huset" />
+          <p class="p-16">Øresundsvej 4-6, 1. 2300 København S</p>
+        </div>
+
+        <div class="m-10 justify-center lg:flex lg:flex-row-reverse">
+          <img src="img/teater_huset.svg" alt="teater_huset" />
+          <p class="p-16">Vandkunsten 5, 1467 København</p>
+        </div>
+      </section>
+    </main>
     <footer></footer>
 
     <script type="module" src="./main.js"></script>
