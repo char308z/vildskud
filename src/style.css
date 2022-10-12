@@ -199,3 +199,32 @@ input[type]:checked ~ span.bottom {
 input[type]:checked ~ span.middle {
   opacity: 0;
 }
+
+.program article {
+  position: relative;
+  display: grid;
+  height: 300px;
+  overflow: hidden;
+  border: #a00000;
+  border-style: solid;
+  border-width: 1px;
+  padding: 0.75rem;
+}
+
+.program article h3 {
+  padding: 0 0rem 0.1rem 0.75rem;
+  font-size: 3.5rem;
+}
+
+.program article:nth-child(even) {
+  background: #dca0a0;
+  border: unset;
+}
+
+.program article:nth-child(even) p:first-of-type {
+  color: #fdfdfd;
+}
+
+.program article:nth-child(even) h3 {
+  color: #a00000;
+}
