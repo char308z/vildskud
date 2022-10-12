@@ -145,7 +145,7 @@
             :class="{'hidden': !(['alledage', 'tirsdag'].includes(spilledag) && ['allevenues', 'vox' , 'zebu'].includes(spillested)) }"
           >
             <h2>Tirsdag</h2>
-            <div class="program grid grid-cols-2 gap-4 lg:grid-cols-3">
+            <div class="program grid gap-4 lg:grid-cols-3">
               <article
                 class="forestilling"
                 x-transition:enter.duration.800ms
@@ -158,7 +158,9 @@
                 </div>
 
                 <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
-                  What fires together wires together
+                  What <br />
+                  fires together <br />
+                  wires together
                 </h3>
               </article>
               <article
@@ -186,10 +188,7 @@
             :class="{'hidden': !(['alledage', 'onsdag'].includes(spilledag) && ['allevenues', 'vox' , 'zebu'].includes(spillested)) }"
           >
             <h2>Onsdag</h2>
-            <div
-              class="program grid grid-cols-2 gap-4 lg:grid-cols-3"
-              id="tirsdagProgram"
-            >
+            <div class="program grid gap-4 lg:grid-cols-3" id="onsdagProgram">
               <article
                 class="forestilling"
                 x-transition:enter.duration.800ms
@@ -202,11 +201,13 @@
                 </div>
 
                 <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
-                  What fires together wires together
+                  What <br />
+                  fires together <br />
+                  wires together
                 </h3>
               </article>
               <article
-                class="forestilling relative grid h-[300px] overflow-hidden p-3"
+                class="forestilling"
                 x-transition:enter.duration.800ms
                 x-on:change="testfunction();"
                 :class="{'hidden': !(['alledage', 'onsdag'].includes(spilledag) && ['allevenues', 'vox' ].includes(spillested)) }"
@@ -248,13 +249,10 @@
 
           <div
             class="grid gap-2"
-            :class="{'hidden': !(['alledage', 'torsdag'].includes(spilledag) && ['allevenues', 'vox' , 'zebu'].includes(spillested)) }"
+            :class="{'hidden': !(['alledage', 'torsdag'].includes(spilledag) && ['allevenues', 'xenon' , 'zebu', 'downunder'].includes(spillested)) }"
           >
             <h2>Torsdag</h2>
-            <div
-              class="program grid grid-cols-2 gap-4 lg:grid-cols-3"
-              id="torsdagProgram"
-            >
+            <div class="program grid gap-4 lg:grid-cols-3" id="torsdagProgram">
               <article
                 class="forestilling"
                 x-transition:enter.duration.800ms
@@ -271,7 +269,7 @@
                 </h3>
               </article>
               <article
-                class="forestilling relative grid h-[300px] overflow-hidden p-3"
+                class="forestilling"
                 x-transition:enter.duration.800ms
                 x-on:change="testfunction();"
                 :class="{'hidden': !(['alledage', 'torsdag'].includes(spilledag) && ['allevenues', 'xenon' ].includes(spillested)) }"
@@ -286,7 +284,8 @@
                 <h3
                   class="absolute bottom-0 z-20 block text-6xl uppercase text-primary"
                 >
-                  Go Go Yo-Yoku
+                  Go Go <br />
+                  Yo-Yoku
                 </h3>
               </article>
               <article
@@ -316,11 +315,12 @@
                 </div>
 
                 <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
-                  Det levende rum
+                  Det <br />levende <br />
+                  rum
                 </h3>
               </article>
               <article
-                class="forestilling relative grid h-[300px] overflow-hidden p-3"
+                class="forestilling"
                 x-transition:enter.duration.800ms
                 x-on:change="testfunction();"
                 :class="{'hidden': !(['alledage', 'torsdag'].includes(spilledag) && ['allevenues', 'xenon' ].includes(spillested)) }"
@@ -333,7 +333,7 @@
                 </div>
 
                 <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
-                  Go Go Yo-Yoku
+                  Go Go <br />Yo-Yoku
                 </h3>
               </article>
               <article
@@ -353,9 +353,252 @@
               </article>
             </div>
           </div>
+          <div
+            class="grid gap-2"
+            :class="{'hidden': !(['alledage', 'fredag'].includes(spilledag) && ['allevenues', 'vox' , 'zebu' ,'downunder','xenon'].includes(spillested)) }"
+          >
+            <h2>Fredag</h2>
+            <div class="program grid gap-4 lg:grid-cols-3" id="fredagProgram">
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'fredag'].includes(spilledag) && ['allevenues' , 'downunder'].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">15:00</p>
+                  <p class="cond text-2xl font-bold text-sort">Downunder</p>
+                </div>
 
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Re-birth
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'fredag'].includes(spilledag) && ['allevenues', 'xenon' ].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold">16.30</p>
+                  <p class="cond text-2xl font-bold text-sort">
+                    Xenon | Teaterhuset
+                  </p>
+                </div>
+
+                <h3
+                  class="absolute bottom-0 z-20 block text-6xl uppercase text-primary"
+                >
+                  Go Go <br />
+                  Yo-Yoku
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'fredag'].includes(spilledag) && ['allevenues' , 'zebu'].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">18:00</p>
+                  <p class="cond text-2xl font-bold text-sort">ZeBU</p>
+                </div>
+
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Det <br />levende <br />
+                  rum
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'fredag'].includes(spilledag) && ['allevenues' , 'downunder'].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">18:15</p>
+                  <p class="cond text-2xl font-bold text-sort">Downunder</p>
+                </div>
+
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Re-birth
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'fredag'].includes(spilledag) && ['allevenues', 'vox' ].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">19:15</p>
+                  <p class="cond text-2xl font-bold text-sort">
+                    Vox | Teaterhuset
+                  </p>
+                </div>
+
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Mand <br />
+                  ligger som mand <br />har redt
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'fredag'].includes(spilledag) && ['allevenues' , 'downunder'].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">20:00</p>
+                  <p class="cond text-2xl font-bold text-sort">Downunder</p>
+                </div>
+
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Re-birth
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'fredag'].includes(spilledag) && ['allevenues', 'xenon' ].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">20:30</p>
+                  <p class="cond text-2xl font-bold text-sort">
+                    Xenon | Teaterhuset
+                  </p>
+                </div>
+
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Frygten <br />
+                  for <br />
+                  ikke at leve
+                </h3>
+              </article>
+            </div>
+          </div>
+          <div
+            class="grid gap-2"
+            :class="{'hidden': !(['alledage', 'lordag'].includes(spilledag) && ['allevenues', 'vox' , 'zebu' ,'xenon'].includes(spillested)) }"
+          >
+            <h2>Lørdag</h2>
+            <div class="program grid gap-4 lg:grid-cols-3" id="lordagProgram">
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'lordag'].includes(spilledag) && ['allevenues' , 'xenon'].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">12:30</p>
+                  <p class="cond text-2xl font-bold text-sort">
+                    Xenon | Teaterhuset
+                  </p>
+                </div>
+
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Frygten <br />
+                  for <br />
+                  ikke at leve
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'lordag'].includes(spilledag) && ['allevenues', 'zebu' ].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold">12.45</p>
+                  <p class="cond text-2xl font-bold text-sort">ZeBU</p>
+                </div>
+
+                <h3
+                  class="absolute bottom-0 z-20 block text-6xl uppercase text-primary"
+                >
+                  Det <br />
+                  levende <br />
+                  rum
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'lordag'].includes(spilledag) && ['allevenues' , 'zebu'].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">13:00</p>
+                  <p class="cond text-2xl font-bold text-sort">
+                    Vox | Teaterhuset
+                  </p>
+                </div>
+
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Mand <br />
+                  ligger som <br />
+                  mand <br />har redt
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'lordag'].includes(spilledag) && ['allevenues' , 'downunder'].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">14:45</p>
+                  <p class="cond text-2xl font-bold text-sort">
+                    Xenon | Teaterhuset
+                  </p>
+                </div>
+
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Frygten <br />for<br />
+                  ikke at leve
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'lordag'].includes(spilledag) && ['allevenues', 'zebu' ].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">16:15</p>
+                  <p class="cond text-2xl font-bold text-sort">ZeBU</p>
+                </div>
+
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Det <br />
+                  levende <br />
+                  rum
+                </h3>
+              </article>
+              <article
+                class="forestilling"
+                x-transition:enter.duration.800ms
+                x-on:change="testfunction();"
+                :class="{'hidden': !(['alledage', 'lordag'].includes(spilledag) && ['allevenues' , 'vox'].includes(spillested)) }"
+              >
+                <div class="text-right">
+                  <p class="top-0 text-3xl font-bold text-primary">17:30</p>
+                  <p class="cond text-2xl font-bold text-sort">
+                    Vox | Teaterhuset
+                  </p>
+                </div>
+
+                <h3 class="absolute bottom-0 z-20 block text-6xl uppercase">
+                  Mand <br />
+                  ligger som mand <br />har redt
+                </h3>
+              </article>
+            </div>
+          </div>
           <p id="ingenforestillinger" class="hidden">
-            Ingen forestillinger - prøv et nyt tid og sted:-)
+            Intet på programmet - prøv en anden dag og sted:-)
           </p>
         </section>
       </section>
@@ -455,7 +698,20 @@
         </p>
       </div>
     </footer>
-
+    <script>
+      function ingenforestillinger() {
+        const skjulteforestillinger = document.querySelector(".forestillinger");
+        if (skjulteforestillinger === "") {
+          document
+            .querySelector("#ingenforestillinger")
+            .classList.remove("hidden");
+        } else {
+          document
+            .querySelector("#ingenforestillinger")
+            .classList.add("hidden");
+        }
+      }
+    </script>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
