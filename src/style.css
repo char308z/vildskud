@@ -18,6 +18,8 @@
     font-weight: 900;
     color: #a00000;
     letter-spacing: 5px;
+    margin-left: 7px;
+    margin-top: 10;
   }
 
   .second_h2 {
@@ -73,6 +75,7 @@
       font-weight: 900;
       color: #a00000;
       letter-spacing: 5px;
+      margin-left: 28px;
     }
 
     .second_h2 {
@@ -97,7 +100,7 @@
 
     p {
       font-family: "helvetica neue";
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
 
     nav a {
