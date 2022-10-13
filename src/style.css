@@ -210,6 +210,7 @@ input[type]:checked ~ span.middle {
   border: #a00000;
   border-style: solid;
   border-width: 1px;
+  z-index: -1;
   padding: 0.75rem;
 }
 
