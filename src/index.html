@@ -2,7 +2,8 @@
 <html lang="da">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg" />
+    <link rel="icon" type="image/png" href="/img/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vildskud</title>
   </head>
@@ -14,7 +15,7 @@
       <nav class="flex justify-between bg-hvid font-light uppercase">
         <a href="index.html">
           <img
-            src="img/valmue.svg "
+            src="img/valmue.webp "
             class="mx-8 mt-4 mb-5 h-[40px]"
             alt="Vildskud logo"
         /></a>
@@ -98,7 +99,7 @@
       <section class="lg:mt-32">
         <div class="grid lg:grid-cols-3">
           <div class="my-10 grid justify-center">
-            <img class="lg:ml-48 lg:w-96" src="img/valmue.svg" alt="" />
+            <img class="lg:ml-48 lg:w-96" src="img/valmue.webp" alt="" />
           </div>
           <div class="grid place-items-center lg:col-span-2">
             <div class="lg:text-right">
@@ -127,18 +128,20 @@
           <h2 class="second_h2 mr-7 grid justify-end">2022</h2>
         </div>
 
-        <div class="mx-16 grid grid-cols-2 pl-8 lg:grid-cols-3">
+        <div class="mx-16 grid grid-cols-2 pl-8 lg:grid-cols-[1fr_auto_1fr]">
           <div
-            class="row-start-1 row-end-7 h-[250vh] border-l-[0.75px] border-solid border-sort"
+            class="row-start-1 row-end-7 h-[250vh] border-l-[0.75px] border-solid border-sort px-8 lg:col-start-2"
           ></div>
-          <div class="mb-10 mt-10 flex flex-col lg:flex-col-reverse">
+          <div
+            class="mb-10 mt-10 flex flex-col lg:flex-col-reverse lg:text-right"
+          >
             <h4 class="font-thin text-primary">
               <strong class="font-bold">Venue:</strong> Downunder
             </h4>
             <h3 class="mb-4 text-5xl">RE-BIRTH</h3>
           </div>
 
-          <div class="mb-10 mt-10 flex flex-col lg:flex-col-reverse">
+          <div class="row-startmt-10 mb-10 flex flex-col lg:flex-col-reverse">
             <h4 class="font-thin text-primary">
               <strong class="font-bold">Venue:</strong> ZeBU
             </h4>
@@ -193,7 +196,7 @@
     </main>
 
     <footer class="border-t-[0.75px] border-black">
-      <div class="mx-8 grid grid-cols-3 grid-rows-2 gap-8 py-6 lg:gap-0">
+      <div class="mx-8 grid gap-8 py-6 lg:grid-cols-3 lg:grid-rows-2 lg:gap-0">
         <div class="flex flex-col justify-between">
           <h2>Vildskud</h2>
           <address class="mb-4 not-italic">
@@ -223,6 +226,9 @@
           </a>
           <a href="rodderne.html">
             <h3 class="text-sort hover:text-primary">Om rødderne</h3>
+          </a>
+          <a href="sitemap.html">
+            <h3 class="text-sort hover:text-primary">Sitemap</h3>
           </a>
           <a href="#">
             <h3 class="pt-4 text-sort hover:text-primary">
@@ -285,7 +291,7 @@
             </a>
           </div>
         </div>
-        <p class="row-start-2 self-end font-mono text-lg">
+        <p class="self-end font-mono text-lg lg:row-start-2">
           © 2022 Vildskudfestival
         </p>
       </div>
