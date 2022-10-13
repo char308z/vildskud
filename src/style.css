@@ -205,8 +205,8 @@ input[type]:checked ~ span.middle {
 
 .program article {
   position: relative;
-  display: grid;
-  height: 300px;
+  height: 350px;
+  max-width: 350px;
   overflow: hidden;
   border: #a00000;
   border-style: solid;
@@ -215,7 +215,7 @@ input[type]:checked ~ span.middle {
 }
 
 .program article h3 {
-  padding: 0 0rem 0.1rem 0.75rem;
+  padding: 0 0rem 0.75rem;
   font-size: 3.5rem;
 }
 
