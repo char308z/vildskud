@@ -8,314 +8,39 @@
 
 
 <url>
-  <loc>https://www.vildskud.dk/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
+  <loc>http://laerkerandrup.dk/kea/vildskud/index.html</loc>
+  <lastmod>2022-10-14T06:50:01+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.vildskud.dk/forestillinger/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
+  <loc>http://laerkerandrup.dk/kea/vildskud/biletter.html</loc>
+  <lastmod>2022-10-14T06:50:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vildskud.dk/events/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
+  <loc>http://laerkerandrup.dk/kea/vildskud/venues.html</loc>
+  <lastmod>2022-10-14T06:50:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vildskud.dk/infovildskud-dk/frivillige/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
+  <loc>http://laerkerandrup.dk/kea/vildskud/program.html</loc>
+  <lastmod>2022-10-14T06:50:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vildskud.dk/infovildskud-dk/open-call/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
+  <loc>http://laerkerandrup.dk/kea/vildskud/frivillig.html</loc>
+  <lastmod>2022-10-14T06:50:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vildskud.dk/om/om-vildskud/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
+  <loc>http://laerkerandrup.dk/kea/vildskud/opencall.html</loc>
+  <lastmod>2022-10-14T06:50:01+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.vildskud.dk/om/samarbejdspartnere/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
+  <loc>http://laerkerandrup.dk/kea/vildskud/om.html</loc>
+  <lastmod>2022-10-14T06:50:01+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/om/teamet-bag/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/om/kontakt/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/saeson/2021/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/saeson/2020/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/saeson/2019/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/aabningsceremoni/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/hvir-er-dy/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/vild-med-mig/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/re-birth/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/frygten-for-ikke-at-leve/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/det-levende-rum/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/mand-ligger-som-mand-har-redt/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/privatlivspolitik/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/cookie-politik/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/what-fires-together-wires-together/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/events/vildskud-klaeder-dig-paa-til-fremtidens-teater/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/events/vildskud-klaeder-dig-paa-til-ny-dansk-dramatik/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/events/vildskud-klaeder-dig-paa-til-scenekunst-om-tabu/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/om/samarbejdspartnere/teater-v/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/maskeret/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/alt-koerer-ik/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/et-surt-opstoed/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/staa-ret-faa-ret/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/mona-lisa-natten/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/hvem-har-inviteret-odile/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/skammer-du-dig-nu/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/hang-in-there/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/du-er-mine-smukkeste-dage/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/vind-mit-hjerte/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/we-are-all-charlie/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/knuste-hjerter-i-floedesovs/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/ensomhed-og-druknedoed/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/jeg-er-god-nok/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/mercedes/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/bundloes/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/attention/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/smadrekvinde/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/proprioception-da-kroppen-blev-vaek/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/der-er-altid-en-ny-dulle-paa-drunken-flamingo/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/bare-mig-selv/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/det-er-en-sang-der-ligner-os/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/maend-der-elsker-maend/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/first-time/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/sulajmas-droem/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/the-impeccable-mr-happy/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/woo-collective/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/er-du-blevet-anderledes/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/traek-et-nummer/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/smadreland/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/den-sidste-nadver/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/caesar-eller-demokrati/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/det-man-siger-er-man-selv/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/et-stykke-af-mig/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/mig-og-min-menstruationskop/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.vildskud.dk/forestillinger/glorias-garden-2/</loc>
-  <lastmod>2022-10-03T12:52:36+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 
 
